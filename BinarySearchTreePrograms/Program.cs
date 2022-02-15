@@ -15,6 +15,7 @@ namespace BinarySearchTreePrograms
             Console.WriteLine("Enter the the 1");
             int num = Convert.ToInt32(Console.ReadLine());
             BST<int> BinarySearchTree = new BST<int>(20);
+
             switch (num)
             {
                 case 1:
@@ -23,7 +24,7 @@ namespace BinarySearchTreePrograms
                     BinarySearchTree.Display();
                     break;
                 default:
-                    break;
+                    break; 
             }
         }
     }

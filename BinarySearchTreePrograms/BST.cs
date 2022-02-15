@@ -60,6 +60,7 @@ namespace BinarySearchTreePrograms
                 this.rightCount++;
                 this.RightTree.Display();
             }
+            
         }
     }
 }
