@@ -18,30 +18,16 @@ namespace BinarySearchTreePrograms
             Console.WriteLine("Enter the Option");
 
             int num = Convert.ToInt32(Console.ReadLine());
-            BST<int> BinarySearchTree = new BST<int>(20);
+            BST<int> BinarySearchTree = new BST<int>(56);
 
             switch (num)
             {
                 case 1:
                     BinarySearchTree.Insert(30);
-                    BinarySearchTree.Insert(40);
+                    BinarySearchTree.Insert(70);
                     BinarySearchTree.Display();
                     break;
                 case 2:
-                    BinarySearchTree.Insert(50);
-                    BinarySearchTree.Insert(45);
-                    BinarySearchTree.Insert(46);
-                    BinarySearchTree.Insert(89);
-                    BinarySearchTree.Insert(11);
-                    BinarySearchTree.Insert(8);
-                    BinarySearchTree.Insert(16);
-                    BinarySearchTree.Insert(60);
-                    BinarySearchTree.Insert(95);
-                    BinarySearchTree.Insert(65);
-                    BinarySearchTree.Insert(63);
-                    BinarySearchTree.Insert(67);
-                   break;
-                case 3:
                     BinarySearchTree.Insert(30);
                     BinarySearchTree.Insert(70);
                     BinarySearchTree.Insert(22);
@@ -50,6 +36,22 @@ namespace BinarySearchTreePrograms
                     BinarySearchTree.Insert(3);
                     BinarySearchTree.Insert(16);
                     BinarySearchTree.Insert(60);
+                    BinarySearchTree.Insert(95);
+                    BinarySearchTree.Insert(65);
+                    BinarySearchTree.Insert(63);
+                    BinarySearchTree.Insert(67);
+                    BinarySearchTree.Display();
+                    BinarySearchTree.GetSize();
+                    break;
+                case 3:
+                    BinarySearchTree.Insert(30);
+                    BinarySearchTree.Insert(70);
+                    BinarySearchTree.Insert(22);
+                    BinarySearchTree.Insert(40);
+                    BinarySearchTree.Insert(11);
+                    BinarySearchTree.Insert(3);
+                    BinarySearchTree.Insert(16);
+                    BinarySearchTree.Insert(60); 
                     BinarySearchTree.Insert(95);
                     BinarySearchTree.Insert(65);
                     BinarySearchTree.Insert(63);
